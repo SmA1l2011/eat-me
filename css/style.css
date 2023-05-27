@@ -30,7 +30,7 @@ ul {
     left: -38px;
     width: 30px;
     height: 30px;
-    background-image: url(img/gps.png);
+    background-image: url(../img/gps.png);
     transform: translateY(-50%);
 }
 
@@ -54,7 +54,7 @@ ul {
     left: -26%;
     width: 30px;
     height: 30px;
-    background-image: url(img/tel.png);
+    background-image: url(../img/tel.png);
     transform: translateY(-50%);
 }
 
@@ -136,7 +136,7 @@ section a:hover:before {
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-    background-image: url(img/bg_eat_me.jpg);
+    background-image: url(../img/bg_eat_me.jpg);
 }
 
 .offer-info h2{
@@ -352,7 +352,7 @@ h1:hover {
     padding-bottom: 70px;
     padding-right: 250px;
     padding-left: 250px;
-    background-image: url(img/bg_two.jpg);
+    background-image: url(../img/bg_two.jpg);
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -488,7 +488,7 @@ h1:hover {
 }
 
 .footer-info .text-img {
-    background-image: url(img/messeng.png);
+    background-image: url(../img/messeng.png);
     margin-bottom: 20px;
     padding-top: 35px;
     padding-bottom: 35px;
@@ -579,7 +579,7 @@ h1:hover {
 .map-position:before{
     content: "";
     position: absolute;
-    background-image: url(img/map_bg.png);
+    background-image: url(../img/map_bg.png);
     width: 1780px;
     height: 500px;
     right: 0.01%;
@@ -598,7 +598,7 @@ address{
     position: absolute;
     width: 11px;
     height: 15px;
-    background-image: url(img/gps-two.png);
+    background-image: url(../img/gps-two.png);
     top: 0%;
     left: -8%;
 }
@@ -612,7 +612,7 @@ address{
     position: absolute;
     width: 13px;
     height: 13px;
-    background-image: url(img/tel-two.png);
+    background-image: url(../img/tel-two.png);
     top: 0%;
     left: -15%;
 }
@@ -626,7 +626,7 @@ address{
     position: absolute;
     width: 15px;
     height: 10px;
-    background-image: url(img/mail.png);
+    background-image: url(../img/mail.png);
     top: 25%;
     left: -17%;
 }
@@ -640,7 +640,7 @@ address{
     position: absolute;
     width: 15px;
     height: 15px;
-    background-image: url(img/skype-two.png);
+    background-image: url(../img/skype-two.png);
     top: 10%;
     left: -50%;
 }
@@ -711,7 +711,7 @@ address{
 .phone:before{
     content: "";
     position: absolute;
-    background-image: url(img/tel-two.png);
+    background-image: url(../img/tel-two.png);
     width: 13px;
     height: 13px;
     left: -15%;
@@ -733,7 +733,7 @@ address{
 .mail:before{
     content: "";
     position: absolute;
-    background-image: url(img/mail.png);
+    background-image: url(../img/mail.png);
     width: 16px;
     height: 12px;
     left: -17%;
@@ -769,7 +769,7 @@ address{
 .contact-info address:before{
     content: "";
     position: absolute;
-    background-image: url(img/gps-two.png);
+    background-image: url(../img/gps-two.png);
     width: 11px;
     height: 15px;
     left: -10%;
