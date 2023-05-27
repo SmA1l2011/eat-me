@@ -1,0 +1,827 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-line li {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-line li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.info address {
+    position: relative;
+}
+
+.info address:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: -38px;
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/gps.png);
+    transform: translateY(-50%);
+}
+
+.info a {
+    position: relative;
+}
+
+.eat-me {
+    display: flex;
+}
+
+.eat-me h1 {
+    color: #000;
+}
+
+.info a:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: -26%;
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/tel.png);
+    transform: translateY(-50%);
+}
+
+.header-line .wrapper,
+header ul,
+main ul,
+.social,
+.footer-info ul,
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header-line {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px;
+}
+
+.info p {
+    margin-right: 20px;
+}
+
+.info {
+    width: 440px;
+}
+
+.circles {
+    width: 100px;
+}
+
+section {
+    width: 83%;
+    margin: 0 auto;
+}
+
+section ul {
+    width: 700px;
+    font-family: 'Roboto', sans-serif;
+}
+
+section ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+section ul li a {
+    position: relative;
+}
+
+section a:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    transition: 0.5s;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #f5ed08;
+}
+
+section a:hover:before {
+    width: 100%;
+}
+
+.offer-info {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-image: url(/img/bg_eat_me.jpg);
+}
+
+.offer-info h2{
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    height: 60px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    transition: 0.4s;
+}
+
+h1:hover {
+    font-size: 40px;
+}
+
+.offer-info p {
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    width: 75%;
+    margin-bottom: 50px;
+}
+
+.offer-info {
+    position: relative;
+}
+
+.button{
+    background-color: #f5ed08;
+    min-width: 220px;
+    padding: 25px 37px;
+    border-radius: 5px;
+    padding-top: 19px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    transition: 500ms;
+}
+
+.button:hover {
+    background-color: #fff;
+}
+
+.button a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    width: 41px;
+    height: 41px;
+    background-color: #f5ed08;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 41px;
+    height: 41px;
+    background-color: #f5ed08;
+    border-radius: 50%;
+    transition: 1s;
+    transform: translateY(-50%);
+}
+
+.arrow a:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #000;
+    border-top: none;
+    border-left: none;
+
+}
+
+.left {
+    left: 5%;
+}
+
+.left:before {
+    transform: rotate(135deg) translate(-15%, 50%);
+}
+
+.right {
+    right: 5%;
+}
+
+.right:before {
+    transform: rotate(-45deg) translate(0, -75%);
+}
+
+.right:hover {
+    background-color: #151517c7;
+}
+
+.right:hover:before {
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+}
+
+.left:hover {
+    background-color: #151517c7;
+}
+
+.left:hover:before {
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+}
+
+.main-info {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-between;
+}
+
+.main-info div{
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 270px;
+    height: 260px;
+    padding-top: 50px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+    border: 3px solid transparent;
+    transition: 1s;
+}
+
+.truck img{
+    padding-top: 15px;
+}
+
+.main-info div:hover {
+    border: #f5ed08 3px solid;
+}
+
+.main-info p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #878787;
+}
+
+.main-info h3 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 18px;
+    color: #151517;
+    font-weight: 700;
+}
+
+.main-eat {
+    background-color: #f1f1f3;
+    display: inline-block;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    text-align: center;
+}
+
+.main-eat h3 {
+    font-size: 36px;
+    color: #151517;
+    font-weight: 700;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.main-eat p {
+    line-height: 24px;
+    font-size: 16px;
+    color: #878787;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-menu-info {
+    display: flex;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 250px;
+    padding-left: 250px;
+    background-image: url(/img/bg_two.jpg);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-menu-info p {
+    line-height: 24px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-button {
+    display: flex;
+    padding: 25px 37px;
+    border-radius: 5px;
+    background-color: #f5ed08;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.menu-button:hover {
+    background-color: #fff;
+}
+
+.menu-button a {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #151517;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rating-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.rating-menu h3 {
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #151517;
+    font-weight: 700;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.rating-menu a{
+    display: flex;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #151517;
+    font-weight: 700;
+    min-width: 150px;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f5ed08;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+.rating-menu a:hover {
+    background-color: #f5ed08;
+}
+
+.bg-five ul li img{
+    margin: 0 auto;
+    width: 100%;
+    height: 225px;
+}
+
+.main-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    min-width: 170px;
+    padding: 10px 24px;
+    border-radius: 5px;
+    border: 2px solid #f5ed08;
+    transition: 0.5s;
+}
+
+.main-button:hover {
+    background-color: #f5ed08;
+}
+
+.main-button a {
+    text-decoration: none;
+    color: #151517;
+}
+
+.button-block {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 375px;
+    padding-right: 375px;
+    background-color: #f1f1f3;
+    padding-bottom: 60px;
+}
+
+.footer-info h3 {
+    padding: 30px;
+    font-size: 36px;
+    color: #151517;
+    font-weight: 700;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.footer-info .text-img {
+    background-image: url(/img/messeng.png);
+    margin-bottom: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 134px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #878787;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-info h2 {
+    font-size: 14px;
+    color: #151517;
+    font-weight: 700;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.footer-info .info-two {
+    font-size: 13px;
+    color: #878787;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dot img {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.contacts{
+    padding-top: 30px;
+    padding-left: 60px;
+    display: inline-block;
+    width: 300px;
+    height: 170px;
+    border-radius: 8px;
+    background-color: #151517;
+}
+
+.tel,
+.skype,
+.contacts li address {
+    font-size: 14px;
+    color: #f5ed08;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.mailto{
+    font-size: 14px;
+    color: #f5ed08;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contacts li {
+    margin-bottom: 15px;
+}
+
+.contacts{
+    position: relative;
+}
+
+.contacts:before{
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: #151517;
+    transform: rotate(-45deg);
+    bottom: -3%;
+    left: 50%;
+}
+
+.map-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1515px;
+    height: 500px;
+    position: relative;
+}
+
+.map-position:before{
+    content: "";
+    position: absolute;
+    background-image: url(/img/map_bg.png);
+    width: 1780px;
+    height: 500px;
+    right: 0.01%;
+}
+
+address{
+    font-style: normal;
+}
+
+.contacts address{
+    position: relative;
+}
+
+.contacts address:before{
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 15px;
+    background-image: url(/img/gps-two.png);
+    top: 0%;
+    left: -8%;
+}
+
+.tel{
+    position: relative;
+}
+
+.tel:before{
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-image: url(/img/tel-two.png);
+    top: 0%;
+    left: -15%;
+}
+
+.mailto{
+    position: relative;
+}
+
+.mailto:before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    background-image: url(/img/mail.png);
+    top: 25%;
+    left: -17%;
+}
+
+.skype{
+    position: relative;
+}
+
+.skype:before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-image: url(/img/skype-two.png);
+    top: 10%;
+    left: -50%;
+}
+
+.footer-line{
+    background-color: #151517;
+    padding-top: 20px;
+    height: 220px;
+}
+
+.footer-line h3{
+    margin-bottom: 20px;
+}
+
+.footer-line .wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.footer-line h2{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.footer-line h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #f1f1f3;
+    font-weight: 700;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.line-info p{
+    display: flex;
+    transition: 0.5s;
+    font-size: 14px;
+    color: #f1f1f3;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif
+}
+
+.line-info p:hover{
+    color: #f5ed08;
+}
+
+.line-info ul li{
+    margin-bottom: 10px;
+}
+
+.h-two ul li{
+    width: 250px;
+}
+
+.phone{
+    text-decoration: none;
+    font-size: 14px;
+    color: #f1f1f3;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.5s;
+    position: relative;
+}
+
+.phone:before{
+    content: "";
+    position: absolute;
+    background-image: url(/img/tel-two.png);
+    width: 13px;
+    height: 13px;
+    left: -15%;
+}
+
+.phone:hover{
+    color: #f5ed08;
+}
+
+.mail{
+    font-size: 14px;
+    color: #f1f1f3;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.5s;
+    position: relative;
+}
+
+.mail:before{
+    content: "";
+    position: absolute;
+    background-image: url(/img/mail.png);
+    width: 16px;
+    height: 12px;
+    left: -17%;
+    top: 15%;
+}
+
+.mail:hover{
+    color: #f5ed08;
+}
+
+.copy p{
+    display: flex;
+}
+
+.copy-info{
+    font-size: 13px;
+    line-height: 24px;
+    color: #878787;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-info address{
+    text-decoration: none;
+    font-size: 14px;
+    color: #f1f1f3;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.5s;
+    position: relative;
+}
+
+.contact-info address:before{
+    content: "";
+    position: absolute;
+    background-image: url(/img/gps-two.png);
+    width: 11px;
+    height: 15px;
+    left: -10%;
+    
+}
+
+.contact-info address:hover{
+    color: #f5ed08;
+}
+
+.contact-info ul li{
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.news p{
+    font-size: 13px;
+    line-height: 24px;
+    color: #878787;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    opacity: 0.200;
+    width: 270px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #151517;
+    border: 1px solid #ffffff;
+}
+
+.social{
+    justify-content: flex-start;
+}
+
+.social li{
+    margin-right: 5px;
+}
+
+section ul li a{
+    text-transform: uppercase;
+}
+
+.food-one{
+    background-color: #f5ed08;
+}
+
+.portraits li{
+    padding: 3px;
+}
